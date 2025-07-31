@@ -50,8 +50,21 @@ argument { style } */
     inline-block -> button;  text va block ishlatilganda ishlatiladi 
 
     box-sizing: border-box; -> Bu yerda box kop hajmlari tashqariga chiqib ketmaydi 
+ 
+    display: grid, flex ;
+    
+        Display: grid; -> grid elementlar bilan ishlaydi.
+        Display: flex; -> flex elementlar bilan ishlaydi.
 
-    display: grid, flex ; 
+        grid-template-columns: 1fr 1fr; -> grid elementlarining ustunlarini belgilaydi.
+        grid-template-rows: 1fr 1fr; -> grid elementlarining qatorlarini belgilaydi.
+        grid-gap: 10px; -> grid elementlarining orasidagi bo'shliqni belgilaydi.
+        flex-direction: row; -> flex elementlarining yo'nalishini belgilaydi.
+        justify-content: center; -> flex elementlarining gorizontal joylashuvini belgilaydi.
+        align-items: center; -> flex elementlarining vertikal joylashuvini belgilaydi.  
+        justify-content: space-between; -> flex elementlarining gorizontal joylashuvini 
+        grid-template-columns: repeat(3, 1fr); -> grid elementlarining ustunlarini takrorlash orqali belgilaydi.
+
 
 */
 * {
