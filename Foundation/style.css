@@ -66,6 +66,17 @@ argument { style } */
         grid-template-columns: repeat(3, 1fr); -> grid elementlarining ustunlarini takrorlash orqali belgilaydi.
 
 
+        Display postion bu yerda elementlarni joylashuvi bilan ishlaydi.
+
+    position: relative; -> elementning joylashuvini belgilaydi. Bu pazitsiya bergandan kegin o'ngga chapga surish mumkin  
+        masalan : top left right bottom kabi joylashuvlarni belgilash mumkin.
+    position: absolute; -> elementning joylashuvini aniq belgilaydi.
+        Karobkani turgan joyidan o'ngga chapga surish mumkin. body bo'yicha harakat qiladi. body ga nisbatan joylashadi.
+    position: fixed; -> elementning joylashuvini o'zgarishsiz belgilaydi.
+    position: sticky; -> elementning joylashuvini scroll bilan bog'liq holda belgilaydi.
+    position: static; -> elementning joylashuvini default holda belgilaydi.
+
+        
 */
 * {
     box-sizing: border-box;
